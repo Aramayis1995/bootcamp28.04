@@ -3,6 +3,18 @@
 ---
 
 ```javascript
+let a = 10,
+  b = 3;
+a = a + b;
+b = a - b;
+a = a - b;
+console.log(a);
+console.log(b);
+```
+
+---
+
+```javascript
 let username = prompt("enter your username", "");
 if (username === "admin") {
   let passward = prompt("enter your passward", "");
@@ -19,3 +31,5 @@ if (username === "admin") {
   alert("I don’t know you");
 }
 ```
+
+---
